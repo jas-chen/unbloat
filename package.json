@@ -1,0 +1,26 @@
+{
+  "name": "unbloat",
+  "version": "0.0.1",
+  "description": "Atomic CSS in JS",
+  "main": "index.js",
+  "scripts": {
+    "unbloat": "jest --config=unbloat.jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jas-chen/unbloat.git"
+  },
+  "author": "Jas Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jas-chen/unbloat/issues"
+  },
+  "homepage": "https://github.com/jas-chen/unbloat#readme",
+  "dependencies": {
+    "cssnano": "^4.1.10",
+    "jest": "^25.1.0",
+    "postcss": "^7.0.26",
+    "postcss-nested": "^4.2.1",
+    "postcss-selector-parser": "^6.0.2"
+  }
+}
