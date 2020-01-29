@@ -1,11 +1,11 @@
 # unbloat
-| Atomic CSS in JS
+> Atomic CSS in JS
 
 
 ## What
 To prevent CSS file from bloating.
 
-It's like [Atomic CSS](https://acss.io/), but you don't have to remember [the complex syntax](https://acss.io/guides/atomic-classes.html).
+It's like [Atomic CSS](https://acss.io/), but you don't have to remember [all the complex syntax](https://acss.io/guides/atomic-classes.html).
 
 ## Feature
 - Styled-component like syntax, well supported by editors
