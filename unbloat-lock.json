@@ -1,10 +1,11 @@
 {
   "version": "0.0.1",
-  "id": 4,
+  "id": 5,
   "data": {
     "&{color:#fff}": "c-0",
     "&{background:red}": "c-1",
     "&{margin:0}": "c-2",
-    "@media (max-width:500px){&{border:none}}": "c-3"
+    "&{display:inline-block!important}": "c-3",
+    "@media (max-width:500px){&{border:none}}": "c-4"
   }
 }

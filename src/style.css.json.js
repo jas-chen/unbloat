@@ -7,6 +7,8 @@ test(__filename, async () => {
         0 0
         0 0;
 
+      display: inline-block !important;
+
       @media (max-width: 500px) {
         border: none;
       }
