@@ -2,7 +2,7 @@
   "name": "unbloat",
   "version": "0.0.3",
   "description": "Atomic CSS in JS",
-  "main": "index.js",
+  "main": "lib/unbloat.js",
   "scripts": {
     "unbloat": "jest --config=unbloat.jest.config.js"
   },
@@ -18,10 +18,12 @@
   "homepage": "https://github.com/jas-chen/unbloat#readme",
   "dependencies": {
     "cssnano": "^4.1.10",
-    "jest": "^25.1.0",
     "md5-hex": "^3.0.1",
     "postcss": "^7.0.26",
     "postcss-nested": "^4.2.1",
     "postcss-selector-parser": "^6.0.2"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
   }
 }
