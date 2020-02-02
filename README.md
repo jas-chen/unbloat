@@ -49,6 +49,13 @@ src/style.css
 *.css.json
 ```
 
+4. Run
+```
+yarn unbloat
+# Or
+yarn unbloat --watch
+```
+
 
 
 ## Example
