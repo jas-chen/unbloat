@@ -1,6 +1,3 @@
 node_modules
 *.log
 *.tmp
-*.css.json
-build/**
-!build/.keep
