@@ -43,8 +43,7 @@ module.exports = require('unbloat')({
 },
 ```
 
-3. Ignore generated files
-`.gitignore`
+3. Ignore generated files in `.gitignore`
 ```
 src/style.css
 *.css.json
