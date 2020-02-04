@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/jas-chen/unbloat#readme",
   "dependencies": {
-    "cssnano": "^4.1.10",
     "md5-hex": "^3.0.1",
     "postcss": "^7.0.26",
     "postcss-nested": "^4.2.1",
