@@ -20,7 +20,7 @@ It's like [Atomic CSS](https://acss.io/), but you don't have to remember [all th
 ## Installation
 
 ```
-yarn add "https://github.com/jas-chen/unbloat#0.0.4"
+yarn add "https://github.com/jas-chen/unbloat#0.0.5"
 ```
 
 
