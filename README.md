@@ -30,10 +30,13 @@ yarn add "https://github.com/jas-chen/unbloat#0.0.4"
 1. Create a file `unbloat.jest.config.js` under the project root
 ```
 const path = require('path');
+const unbloat = require('unbloat');
 
-module.exports = require('unbloat')({
-  output: path.join(__dirname, 'src', 'style.css'),
+const config = unbloat({
+  output: path.join(__dirname, 'build', 'style.css'),
 });
+
+module.exports = config;
 ```
 
 2. Add a script in the `package.json`
