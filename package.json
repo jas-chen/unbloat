@@ -1,6 +1,6 @@
 {
   "name": "unbloat",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Atomic CSS in JS",
   "main": "lib/unbloat.js",
   "scripts": {
