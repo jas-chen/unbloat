@@ -20,7 +20,7 @@ It's like [Atomic CSS](https://acss.io/), but you don't have to remember [all th
 ## Installation
 
 ```
-yarn add "https://github.com/jas-chen/unbloat#0.0.5"
+yarn add "https://github.com/jas-chen/unbloat#0.0.6"
 ```
 
 
@@ -33,7 +33,7 @@ const path = require('path');
 const unbloat = require('unbloat');
 
 const config = unbloat({
-  output: path.join(__dirname, 'build', 'style.css'),
+  dest: path.join(__dirname, 'build'),
 });
 
 module.exports = config;
@@ -59,6 +59,10 @@ yarn unbloat
 yarn unbloat --watch
 ```
 
+5. Build
+```
+NODE_ENV=production yarn unbloat
+```
 
 
 ## Example
