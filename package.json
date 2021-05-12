@@ -19,7 +19,7 @@
   "dependencies": {
     "fs-extra": "^8.1.0",
     "md5-hex": "^3.0.1",
-    "postcss": "^7.0.26",
+    "postcss": "^8.2.10",
     "postcss-nested": "^4.2.1",
     "postcss-selector-parser": "^6.0.2"
   },
