@@ -66,6 +66,47 @@ NODE_ENV=production yarn unbloat
 
 
 ## Example
+
+#### Basic
+
+###### Input
+
+`src/button.css.json.js`
+
+```js
+test(__filename, async () => {
+  await css`
+    .default {
+      cursor: pointer;
+      color: #333;
+      background-color: #fff;
+    }
+
+    .primary {
+      cursor: pointer;
+      color: #fff;
+      background-color: #007bff;
+    }
+  `;
+});
+```
+
+###### Output
+
+`src/button.css.json`
+```json
+{
+  "default": "c-38eafc58 c-bd0ecde9 c-c0ae8c5b",
+  "primary": "c-38eafc58 c-cf9884e5 c-0c288c7c"
+}
+```
+
+`build/style.css`
+```css
+.c-0c288c7c{background-color:#007bff}.c-38eafc58{cursor:pointer}.c-bd0ecde9{color:#333}.c-c0ae8c5b{background-color:#fff}.c-cf9884e5{color:#fff}
+```
+
+#### With variavbles
 `src/button.css.json.js`
 ```
 const PRIMARY_COLOR = '#007bff';
